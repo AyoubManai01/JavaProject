@@ -4,17 +4,17 @@ public class Main {
         Produit produit0 = new Produit();
         Produit produitA = new Produit(1021, "Lait", "Delice");
         Produit produitB = new Produit(2510, "Yaourt", "Vitalait");
-        Produit produitC = new Produit(3250, "Tomate", "Sicam", 1.200);
+        Produit produitC = new Produit(3250, "Tomate", "Sicam", 1.200f);
 
         produit0.afficher();
         produitA.afficher();
         produitB.afficher();
         produitC.afficher();
 
-        produitA.prix = 0.700;
+        produitA.prix = 0.700f;
         produitA.afficher();
 
-        produitB.prix = 0.600;
+        produitB.prix = 0.600f;
         produitB.afficher();
 
         System.out.println(produitA.toString());
