@@ -4,10 +4,10 @@ public class Produit {
     int identifiant;
     String marque;
     String libelle;
-    double prix;
+    float prix;
     Date dateexp;
     Produit(){}
-    Produit(int identifiant, String marque, String libelle, double prix){
+    Produit(int identifiant, String marque, String libelle, float prix){
             this.identifiant = identifiant;
             this.marque = marque;
             this.libelle = libelle;
@@ -18,7 +18,7 @@ public class Produit {
         this.marque = marque;
         this.libelle = libelle;
     }
-    Produit(int identifiant, String marque, String libelle, double prix, Date dateexp){
+    Produit(int identifiant, String marque, String libelle, float prix, Date dateexp){
         this.identifiant = identifiant;
         this.marque = marque;
         this.libelle = libelle;
